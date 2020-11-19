@@ -78,13 +78,26 @@
 										by a toy dc brushed motor. The brains of the project is an Arduino Nano which is used to drive the motor through a seperate motor 
 										driver breakout. The electronics at the top of the spinning shaft which are a servo motor, a laser diode, and an IMU all take 
 										instructions from the Arduino. These electronics use a slip ring to avoid getting tangled by the spinning shaft. The Arduino 
-										allows me to coordinate movement and sensor data in order to create any pre-programmed paths that I want. All of the electronics 
-										are powered by a 2s LI-ION battery pack. I also added a button and a few indicator LEDs to allow greater ease of use.
+										allows me to coordinate movement and sensor data in order to create any pre-programmed paths that I want. I can use the Arduino's 
+										internal timer to alternate the direction of the servo and dc motor. All of the electronics are powered by a 2s LI-ION 
+										battery pack. I also added a button and a few indicator LEDs to allow greater ease of use.
 									</p>
 
 									<h3 id="Specifications">Specifications</h3>
 
-									<p>343 grams</p>
+									<ul>
+										<li>Base Length: 144.5 mm</li>
+										<li>Base Width: 115 mm</li>
+										<li>Base Height: 70 mm</li>
+										<li>Total Height: 280 mm</li>
+										<li>Axle Diameter: 1/4 inch</li>
+										<li>3d printed gear material: PLA</li>
+										<li>Individual Gear Reduction: 46:11 = 4.18:1</li>
+										<li>Total Gear Reduction(3 compound gears): 73.12998:1</li>
+										<li>Power: 7.4 V, 1800 mAh pack</li>
+										<li>Mass: 343 g</li>
+									</ul>
+									
 
 									<h3 id="Component_List">Component List</h3>
 
@@ -107,7 +120,7 @@
 											<div class="col-4">
 												<article>
 													<h5>DC Brushed Toy Motor</h5>
-													<img src="images/dcMotor.jpg" width="200" height="100" alt=""/>
+													<img src="images/BrushedMotor.jpg" width="200" height="100" alt=""/>
 												</article>	
 											</div>
 											<div class="col-4">
@@ -119,7 +132,7 @@
 											<div class="col-4">
 												<article>
 													<h5>3d printed bevel and spur gears</h5>
-													<img src="images/gear.jpg" width="200" height="100" alt=""/>
+													<img src="images/3dgear.jpg" width="200" height="100" alt=""/>
 												</article>	
 											</div>
 											<div class="col-4">
@@ -218,11 +231,23 @@
 
 									<h3 id="Testing">Testing</h3>
 
-									<p>Blah Blah Blah</p>
+									<p>
+										Before starting this project, I created several prototype gear systems in order to test my first
+										3d printed gears. I mainly held all of the axles down with hot glue which led to many problems because
+										the axles were not held down strongly enough. Because the frame of the device is made out of cardboard
+										I felt as though my options were limited. To adress this I redesigned my 3d printed parts to be thicker
+										to better withstand the forces of the gears. I also epoxied some pieces that were especially troubling.
+										I found that running the motor at a high speed increases the chances of a piece unsticking, so I try to
+										use lower voltages.
+									</p>
 
 									<h3 id="Ongoing_Issues">Ongoing Issues</h3>
 
-                                    <p>Blah Blah Blah</p>
+                                    <ul>
+										<li>Vertical axle is not perfectly perpendicular to ground</li>
+										<li>Vibration of servo messes with IMU values</li>
+										<li>The motor and gear noises make the device very noisy while on</li>
+									</ul>
 
 								</section>
 
