@@ -60,11 +60,34 @@
 									
 									<h3 id="Background">Background</h3>
 
-									<p>Blah Blah Blah</p>
+									<p>
+										This was my first big project with Arduino after experimenting with the device and with various 
+										components for months. I decided to build a kart becuase I thought that it was a good first project 
+										with several different systems working together. Because it was my first project with a microcontroller, 
+										and because I was busy with classes, This project took a few years to arrive at a place I was happy with.
+										The gear mesh in particular gave me much trouble because I was completely inexperienced with them and I was
+										also working with cheap plastic gears from Ebay. I caused many shorts and destroyed many components during 
+										the process of constructing this kart, but I learned very important lessons with each failure.
+									</p>
 
 									<h3 id="Design">Design</h3>
 
-									<p>Blah Blah Blah</p>
+									<p>
+										The design of this project is split up into two parts, the kart and the transmitter. The original concept for
+										the kart had a control stick wired to its Arduino, but I decided on the transmitter later for better ease of use.
+										For the frame of the kart, I used a spare piece of plywood that I cut into shape at my job's workshop. The kart 
+										revolves around the Arduino which coordinates all systems. I used a motor driver breakout to drive the small
+										dc motor. This gives the motor the ability to change directions and adjust the speed through instructions from the 
+										microcontroller. The steering is controlled by a servo motor attached to the front axle. Using the arduino's internal
+										timers, these systems are able to work independently. The receiver will pick up instructions from the transmitter when 
+										it is in RC mode. The kart is powered by two 18650 cells located under the plywood frame. Later on I added various sensors
+										to the top of the kart to write executable commands. The gyroscope and accelerometer allowed me to execute 90 degree 
+										turns fairly accurately.
+										<br>
+										The transmitter is a simple device centered around the Arduino. It is basically a few input devices where their values are
+										stored in a struct in the Arduino. The Arduino then tells the Transmitter to send this struct to the Kart which will receive it
+										as long as it is in the right mode. The whole thing is powered by 4 AA batteries.
+									</p>
 
 									<h3 id="Specifications">Specifications</h3>
 
@@ -232,7 +255,7 @@
 
 									<h4>Transmitter</h4>
 
-									<img src="images/arduKartTransmitterBlock.jpg" width="800" height="400" alt="" class="center"/>
+									<img src="images/arduKartTransmitterBlock.jpg" width="600" height="300" alt="" class="center"/>
 
 
 									<h3 id="Schematic">Schematic</h3>
@@ -254,25 +277,36 @@
 
 									<h3 id="Photos">Photos & Videos</h3>
 
-									<p>Blah Blah Blah</p>
-
-					
-
-									<video controls width="240" height="480">
-										<source src="videos/KartAutoLeft.mp4"
-												type="video/mp4">
-									</video>
-
-									<video controls width="240" height="480">
-										<source src="videos/KartAutoRight.mp4"
-												type="video/mp4">
-									</video>
-
-									<video controls width="240" height="480">
-										<source src="videos/KartRemote.mp4"
-												type="video/mp4">
-									</video>
-
+									<div class "box alt">
+										<div class="row gtr-uniform">
+											<div class="col-4">
+												<article>
+													<h5>Programmed Path</h5>
+													<video controls width="240" height="480">
+														<source src="videos/KartAutoLeft.mp4"
+																type="video/mp4">
+													</video>
+												</article>
+											</div>
+											<div class="col-4">
+												<article>
+													<h5>Programmed Path</h5>
+													<video controls width="240" height="480">
+														<source src="videos/KartAutoRight.mp4"
+																type="video/mp4">
+													</video>
+												</article>
+											</div>
+											<div class="col-4">
+												<article>
+													<h5>Remote Control</h5>
+													<video controls width="240" height="480">
+														<source src="videos/KartRemote.mp4"
+																type="video/mp4">
+													</video>
+												</article>
+											</div>
+				
 									<h3 id="Testing">Testing</h3>
 
 									<p>Blah Blah Blah</p>
