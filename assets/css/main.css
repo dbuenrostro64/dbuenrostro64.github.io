@@ -78,7 +78,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #0c793d8a; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -112,7 +112,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #4b49d1;
+  color: #77191d;
   text-decoration: none; }
   a:hover {
     border-bottom-color: #0b6321;
@@ -128,7 +128,11 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0; 
+  color: #000000;}
+
+li {
+  color: #000000;}
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
