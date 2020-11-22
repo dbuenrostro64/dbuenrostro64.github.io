@@ -76,10 +76,12 @@
 
 									<p>
 										The device is designed to work by holding the end of it up to a spinning shaft. I usually
-										3d print an arm for the shaft to facilitate measurements. As the arm passes over the sensor,
+										3d print an arm for the motor shaft to facilitate measurements. As the arm passes over the sensor,
 										the device will count how long each pass takes and will convert that value into rotations
-										per minute with the help of a microcontroller. The 3d printed enclosure has a snap fit case so 
-										that it can be opened and closed without the need for screws
+										per minute with the help of a microcontroller. The counting is done by the built in 16 bit timer
+										on the Arduino. For this project I set the timer registers and created interrupt service routines
+										so that the timing is exact. The 3d printed enclosure has a snap fit case so that it can be opened 
+										and closed without the need for screws.
 									</p>
 
 									<h3 id="Specifications">Specifications</h3>
@@ -174,6 +176,7 @@
 													<p>Test with a dc brushed motor with an arm on the shaft for better reading</p>
 												</article>
 											</div>
+										</div>
 
 									<h3 id="Testing">Testing</h3>
 
