@@ -65,15 +65,27 @@
 									
 									<h3 id="Background">Background</h3>
 
-									<p>Blah Blah Blah</p>
+									<p>
+										This tachometer came about as a side project while designing my Cat Toy. I thought it would 
+										be interesting to know how fast the motor and all the gears were spinning so I watched
+										videos on custom made tachometers. I followed the design on one of the videos and I designed 
+										a custom enclosure to be 3d printed.
+									</p>
 
 									<h3 id="Design">Design</h3>
 
-									<p>Blah Blah Blah</p>
+									<p>
+										The device is designed to work by holding the end of it up to a spinning shaft. I usually
+										3d print an arm for the shaft to facilitate measurements. As the arm passes over the sensor,
+										the device will count how long each pass takes and will convert that value into rotations
+										per minute with the help of a microcontroller. The 3d printed enclosure has a snap fit case so 
+										that it can be opened and closed without the need for screws
+									</p>
 
 									<h3 id="Specifications">Specifications</h3>
 
 									<ul>
+										<li>Power: 9v Battery</li>
 										<li>Mass: 72 g</li>
 									</ul>>
 
@@ -132,7 +144,36 @@
 
 									<h3 id="Photos">Photos & Videos</h3>
 
-									<img src="images/TachometerInside.jpg" width="300" alt="">
+								
+
+									<div class "box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12">
+												<article>
+													<h5>Inside Tachometer</h5>
+													<img src="images/TachometerInside.jpg" width="300" alt="inside tachometer">
+												</article>
+											</div>
+											<div class="col-4">
+												<article>
+													<h5>Test #1</h5>
+													<video controls width="400">
+														<source src="videos/TachometerHand.mp4"
+																type="video/mp4">
+													</video>
+													<p>Moving my hand over the sensor about once per second gives a reading of about 60RPM</p>
+												</article>
+											</div>
+											<div class="col-8">
+												<article>
+													<h5>Test #2</h5>
+													<video controls width="400">
+														<source src="videos/TachometerMotor.mp4"
+																type="video/mp4">
+													</video>
+													<p>Test with a dc brushed motor with an arm on the shaft for better reading</p>
+												</article>
+											</div>
 
 									<h3 id="Testing">Testing</h3>
 
@@ -141,8 +182,10 @@
 									<h3 id="Ongoing_Issues">Ongoing Issues</h3>
 
 									<ul>
+										<li>Does not work for slow spinning motors at less than 60 RPM </li>
 										<li>Does not work in bright light</li>
 										<li>Difficult to line up and hold at correct position</li>
+										<li>Display sometimes shows innacurate readings briefly</li>
 										<li>LED should be visible when distance sensor switches on and off</li>
 									</ul>
 
@@ -168,11 +211,12 @@
 									<li><a href="Tachometer.html">Tachometer</a></li>
 									<li><a href="CatToy.html">Cat Toy</a></li>
 									<li>
-										<span class="opener">Submenu</span>
+										<span class="opener">Aditional info</span>
 										<ul>
-											<li><a href="#">Lorem Dolor</a></li>
+											<li><a href="#">Tools</a></li>
+											<li><a href="#">Hobbies</a></li>
 										</ul>
-									</li>										
+									</li>								  		
 								</ul>
 							</nav>
 
