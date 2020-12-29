@@ -66,27 +66,50 @@
 									<h3 id="Background">Background</h3>
 
 									<p>
-										pass
+										This is the project where i decided to try some new things in the embedded programming space. Many of my previous projects
+										have been created using the arduin IDE and use many libraries that take up space in the microcontroller memory. I believe that 
+										it is a worthwile skill to be able to program onto the hardware directly so this project wii be done exclusively in C with no
+										libraries. I will also attempt to design my own PCB after spending months designing circuits on breadboards and then moving them
+										to perf boards. It would be a great experience for me to test out the process of designing an actual PCB even if there are 
+										many problems involved that are difficult for me to solve. Much of this process would be easier for me with specialized tools 
+										such as an ISP debugger, a logic analyzer, and an Oscilloscope, but I have to work with the tools that are available to me
+										since those tools are very expensive.
 									</p>
 
 									<h3 id="Design">Design</h3>
 
 									<p>
-										pass
+										This is the second microcontroller based cart that I have designed after the ArduKart, but with this one I am working much 
+										closer to the hardware level. Instead of using and Arduino dev board, I am working directly with an ATMega328P DIP and I 
+										am programming it with an in-system programmer(ISP). The programmer I am using does not have debugging capabilities built 
+										in because those are very expensive, but  am working with what I have. The car is very simple in design and functionality. 
+										It is made up of a 3d printed base, 2 3d printed axles and wheels, and 3d printed gears attached to a small dc brushed motor. 
+										The car is powered by a 4 AA battery pack. The logic is controlled by an ATMega328P and the motor is controlled by a cheap 
+										H-Bridge ic. The cart is only capable of going forwards and backwards, but I will use these limitations to display the 
+										capablilities and peripherals of the microcontroller by integrating interrups. timers, and low power/sleep mode. 
 									</p>
 
 									<h3 id="Specifications">Specifications</h3>
 
 									<h4>Kart</h4>
 									<ul>
-										<li>pass</li>
+										<li>Mass: 216g</li>
 										
 									</ul>
 
 
 									<h3 id="Component_List">Component List</h3>
 
-									<p>pass</p>
+									<div class "box alt">
+										<div class="row gtr-uniform">
+											<div class="col-4">
+												<article>
+													<h5>4x AA Batteries</h5>
+													<img src="images/aaBatt.jpg" width="200" alt=""/>
+												</article>
+											</div>
+										</div>
+									</div>
 
 									<h3 id="Block_Diagram">Block Diagram</h3>
 
@@ -104,7 +127,7 @@
 									<h3 id="Code">GitHub Code</h3>
 
 									<ul class="actions">
-										<li><a href="https://github.com/dbuenrostro64/PCBcar/tree/main" class="button">Car Code</a></li>
+										<li><a href="https://github.com/dbuenrostro64/PCBcart" class="button">Car Code</a></li>
 									</ul>
 
 									<h3 id="Photos">Photos & Videos</h3>
