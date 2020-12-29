@@ -93,8 +93,12 @@
 
 									<h4>Kart</h4>
 									<ul>
+										<li>Body Length: 158.9mm</li>
+										<li>Body Width: 99.5mm</li>
+										<li>Wheel Diameter: 65mm</li>
+										<li>Gear Ratio: 4.077:1</li>
+										<li>Power: 6v, 4x AA</li>
 										<li>Mass: 216g</li>
-										
 									</ul>
 
 
@@ -104,16 +108,57 @@
 										<div class="row gtr-uniform">
 											<div class="col-4">
 												<article>
+													<h5>ATMega328P</h5>
+													<img src="images/atmega.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>16MHz Crystal Oscillator</h5>
+													<img src="images/crystal.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>330 ohm Resistor</h5>
+													<img src="images/resistor.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>2x 47pF, 4x 0.1µF Capacitor</h5>
+													<img src="images/capacitor.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>USBtinyISP</h5>
+													<img src="images/usbtinyisp.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>L7805CV 5V voltage regulator</h5>
+													<img src="images/l7805cv.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>L9110H H-Bridge Motor Driver</h5>
+													<img src="images/l9110h.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>DC Brushed Toy Motor</h5>
+													<img src="images/BrushedMotor.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>3d printed spur gears</h5>
+													<img src="images/3dgear.jpg" width="200" alt=""/>
+												</article>
+												<article>
+													<h5>Yellow LED</h5>
+													<img src="images/led.jpg" width="200" alt=""/>
+												</article>
+												<article>
 													<h5>4x AA Batteries</h5>
 													<img src="images/aaBatt.jpg" width="200" alt=""/>
 												</article>
+												
 											</div>
 										</div>
 									</div>
 
 									<h3 id="Block_Diagram">Block Diagram</h3>
 
-									<p>pass</p>
+									<img class="displayed" src="images/pcbCartBlock.jpg" width="800" alt="" class="center"/>
 
 
 									<h3 id="Schematic">Schematic</h3>
@@ -164,12 +209,17 @@
 									<h3 id="Testing">Testing</h3>
 
 									<p>
-										pass
+										While testing the PCB that I designed and ordered from a PCB manufacturing site, i found that I was not 
+										getting the same results as the exact same circuit that I had made on a breadboard. From my tests, I 
+										believe that the problem is that I made the PCB tracks too narrow that not enough current was able to 
+										pass to the neccessary areas. Because it would take too long to redesign and get another pcb shipped, I 
+										decided to put together my circuit on a perf board instead to save me some trouble. Even though I am not
+										using the PCB, I still gained valuable experience from the process.
 									</p>
 
 									<h3 id="Ongoing_Issues">Ongoing Issues</h3>
 									<ul>
-										<li>pass</li>
+										<li>PCB: Input logic from microcontroller fluctuates when motor is connected </li>
 						
 									</ul>
 								</section>
@@ -188,16 +238,16 @@
 								</header>
 								<ul>
 									<li><a href="index.html">Homepage</a></li>
+									<li><a href="PCBcar.html">PCB car</a></li>
 									<li><a href="ArduKart.html">ArduKart</a></li>
 									<li><a href="PlantMeter.html">Plant Vitals Sensor</a></li>
 									<li><a href="PunkConsole.html">Atari Punk Console</a></li>
 									<li><a href="Tachometer.html">Tachometer</a></li>
 									<li><a href="CatToy.html">Cat Toy</a></li>
-									<li><a href="PCBcar.html">PCB car</a></li>
 									<li>
 										<span class="opener">Aditional info</span>
 										<ul>
-											<li><a href="#">Tools</a></li>
+											<li><a href="tools.html">Tools</a></li>
 											<li><a href="#">Hobbies</a></li>
 										</ul>
 									</li>										
