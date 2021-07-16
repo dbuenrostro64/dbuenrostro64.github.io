@@ -53,38 +53,30 @@
 									<ul>
 										<li><a href="#Background">Background</a></li>
 										<li><a href="#Design">Design</a></li>
-										<li><a href="#Specifications">Specifications</a></li>
-										<li><a href="#Component_List">Component List</li>
-										<li><a href="#Block_Diagram">Block Diagram</a></li>
-										<li><a href="#Schematic">Schematic</a></li>
 										<li><a href="#Code">Code</a></li>
 										<li><a href="#Photos">Photos & Videos</a></li>
-										<li><a href="#Testing">Testing</a></li>
 										<li><a href="#Ongoing_Issues">Ongoing Issues</a></li>
 									</ul>
 									
 									<h3 id="Background">Background</h3>
 
 									<p>
-										
+										This game started as an assignment for my Introduction to Game Design class. The assignment was to create a simple 
+										snake game using Pygame modules. Once we fulfilled the requirements for basic game mechanics, we were able to add 
+										whatever else we wanted to make our game unique. I added a few features that I believe add to the game and make it 
+										more enjoyable for multiple playthroughs. 
 									</p>
 
 									<h3 id="Design">Design</h3>
 
-									
-
-									<h3 id="Specifications">Specifications</h3>
-
-									
-
-									<h3 id="Component_List">Component List</h3>
-
-									
-									<h3 id="Block_Diagram">Block Diagram</h3>
-
-
-									<h3 id="Schematic">Schematic</h3>
-
+									<p>
+										The game is a basic game of snake where the snake can move in 4 directions depending on which arrow key is pressed.
+										There is food randomly placed around the screen which can be eaten by moving over it. If the snake eats the food, then 
+										the snake will grow by a pre determined amount. The growth rate is set to 3 squares, but it can be changed to whatever 
+										value. If the snake leaves the game screen or it touches its own body, then the game will end. Once the game ends, it will 
+										ask the player to enter a name. The name and score will be saved to an external file and will be displayed in a high score 
+										screen if it is high enough.
+									</p>
 
 									<h3 id="Code">GitHub Code</h3>
 
@@ -136,13 +128,13 @@
 												</article>
 											</div>
 										</div>
-											
-
-									<h3 id="Testing">Testing</h3>
-
 
 									<h3 id="Ongoing_Issues">Ongoing Issues</h3>
-				
+									<ul>
+										<li>Timer does not reset to zero when play again is selected</li>
+										<li>High score names will clip through text if there are too many</li>
+										<li>Snake will pass over timer and score text</li>
+									</ul>		
 								</section>
 
 						</div>
